@@ -1,0 +1,45 @@
+.chat-header {
+  padding: 10px 20px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.chat-header-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.chat-header-text h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #111;
+}
+
+.chat-header-text .status {
+  font-size: 13px;
+  color: #8696a0;
+}
+
+.chat-header-text .status.online {
+  color: #00a884;
+}
+
+.logout-button {
+  padding: 8px 16px;
+  background: #f44336;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+.logout-button:hover {
+  background: #d32f2f;
+}

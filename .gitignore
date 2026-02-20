@@ -1,0 +1,33 @@
+# Зависимости - НИКОГДА НЕ КОММИТИТЬ!
+**/node_modules/
+**/package-lock.json
+
+# Сборка
+**/build/
+**/dist/
+**/client/build/
+
+# Логи и временные файлы
+*.log
+*.pid
+*.pid.lock
+.DS_Store
+Thumbs.db
+
+# Env файлы
+.env
+.env.local
+.env.production
+
+# Папки с загрузками
+server/uploads/
+!server/uploads/.gitkeep
+client/uploads/
+!client/uploads/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
